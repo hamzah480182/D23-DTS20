@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team D23</title>
+    <link rel="stylesheet" href="aturan.css">
+    <link rel="stylesheet" href="aturan_respon.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <!-- BAGIAN HEADER -->
+    <header>
+        <div class="container">
+        <div class="header-left">
+            <h1 class="logo">KELAS PRO-D : D-23<h1>
+        </div>
+        <span class="fa fa-bars menu-icon"></span>
+        <div class="header-right">
+            <a class="active" href="#home">Home</a>
+            <a href="#our_team">Our Team</a>
+            <a href="#product">Pruduct</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+    </header>
+
+    <!-- BAGIAN TOP WRAPPER -->
+    <div class="top-wrapper">
+    <div class="row">
+        <div class="col-3 col-s-3 menu">
+          <ul>
+            <li>Header</li>
+            <li>Bagian Utama</li>
+            <li>Extra 1</li>
+            <li>Extra 2</li>
+            <li>Footer</li>
+          </ul>
+        </div>
+      
+        <div class="col-6 col-s-9">
+            <div class="kata-kata">
+            <h1>ONLINE ACADEMY</h1>
+            <h1>DIGITAL TALENT SCHOLARSHIP (DTS)</h1>
+          <h2>Project Team D-23_DTS20</h2>
+          <h2>“Membuat halaman web statis mengenai tim anda bersama!”</h2>
+          <p>Belajar bersama dari rumah masing-masing, komunikasi intensif dengan discord, planing finishing tugas proyek tim pertama.</p>
+          <p>Kami berbeda satu tujuan mencari ilmu yang bermanfaat.</p>
+        </div>
+        </div>
+      
+        <div class="col-3 col-s-12">
+          <div class="aside">
+              <p>Daftarkan Diri Anda !</p>
+            <div class="btn-wrapper">
+                <a href="#" class="btn signup">Daftar dengan Email</a>
+                <p>atau</p>
+                <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Daftar dengan Facebook</a>
+                <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Daftar dengan Twitter</a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- BAGIAN EXSTRA 1  -->
+  <div class="bio-wrapper">
+    <div class="container">
+      <div class="heading">
+        <h2>Team Kami !</h2>
+      </div>
+      <div class="teams">
+        <div class="team">
+          <div class="team-icon">
+            <img src="pp.jpg"> 
+          </div>
+          <p>Feisal Lavi Abraham</p>
+           
+        </div>
+        <div class="team">
+          <div class="team-icon">
+            <img src="pp.jpg">
+          </div>
+          <p>Fathurrahman</p>
+          
+        </div>
+        <div class="team">
+          <div class="team-icon">
+            <img src="pp.jpg">
+          </div>
+          <p>Hamzah</p>
+          
+        </div>
+        <div class="team">
+          <div class="team-icon">
+            <img src="pp.jpg">
+          </div>
+          <p>Fahrul Rozi</p>
+          
+        </div>
+        <div class="team">
+          <div class="team-icon">
+            <img src="pp.jpg">
+          </div>
+          <p>Fsari</p>
+          
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+  </div>
+  <!-- BAGIAN EXSTRA 2  -->
+  <div class="message-wrapper">
+    <div class="container">
+      <div class="heading">
+        <h2>Memulai suatu pekerjaan dengan tanpa menunda apa yang bisa kita kerjakan sekarang?</h2>
+        <h3>Ayo terus belajar, belajar sepanjang hayat!</h3>
+      </div>
+      <span class="btn message">JOIN MEMBER</span>
+    </div>
+  </div>
+  <div class="contact-form">
+    <h3 class="section-title">Hubungi Kami</h3>
+    <p>Nomor HP *)</p>
+      <input>
+    <p>Masukan/Saran</p>
+      <textarea></textarea>
+          <p>*) Bidang Wajib Diisi</p>
+    <input class="contact-submit" type="submit" value="KIRIM">
+  </div>
+  <!--  BAGIAN FOOTER  -->
+    <footer>
+      <div class="container">
+        <h3>HTML & CSS Team Project</h3>
+        <p>Tugas Pertama Membuat Web Statis</p>
+      </div>
+    </footer>
+  </body>
+</html>
