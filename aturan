@@ -1,0 +1,237 @@
+* {box-sizing: border-box;}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+header {
+  overflow: hidden;
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+  
+}
+.header-left {
+    color: whitesmoke;
+    float: left;
+    font-size: 15px;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+}
+.header-right {
+    float: right;
+  }
+.header-right a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  display: block;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header-right a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+.menu-icon {
+    display: none;
+}
+
+/*  bagian utama */
+.top-wrapper {
+    padding: 150px 0 100px 0;
+    background-image: url(Background1.jpg);
+    background-size: cover;
+  }
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #33b5e5;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+  
+  .menu li:hover {
+    background-color: #0099cc;
+  }
+  
+  .aside {
+    background-color: #33b5e5;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+  .fa {
+    margin-right: 5px;
+  }
+  .btn-wrapper p {
+    margin: 10px 0;
+  }
+  .signup {
+    background-color: #239b76;
+  }
+  
+  .facebook {
+    background-color: #3b5998;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .twitter {
+    background-color: #b3aeb5;
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  .fa {
+    margin-right: 5px;
+  }
+  
+/*bagian extra 1*/
+.bio-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    
+  }
+.kata-kata {
+    text-align: center;
+    color: yellow;
+    opacity: 0.7;
+}
+  .heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+  }
+  
+  .heading h2 {
+    font-weight: bold;
+  }
+  
+  .team {
+    float: left;
+    width: 20%;
+    font-weight: bold;
+  }
+  
+  .team-icon {
+    position: relative;
+  }
+  
+  .team p {
+    font-weight: bold;
+    color: black;
+  }
+  
+  .message {
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+
+/* bagian extra 2*/
+.heading h3 {
+    font-weight: normal;
+  }
+  
+  .message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  
+  .message {
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+  input, textarea {
+      width: 400px;
+      margin-top: 10px;
+      margin-bottom: 30px;
+      padding: 20px;
+      font-size: 18;
+      border: 1px solid #dee7ec;
+  }
+  .contact-form {
+      padding-top: 50px;
+      padding-left: 20px;
+      background-color: #c0c0c0;
+  }
+footer {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+  }
